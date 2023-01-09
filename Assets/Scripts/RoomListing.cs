@@ -3,6 +3,9 @@ using Photon.Realtime;
 using UnityEngine;
 using UnityEngine.UI;
 
+/**
+ * Changes the Room Listing text. 
+ */
 public class RoomListing : MonoBehaviourPunCallbacks {
     [SerializeField]
     private Text text;
